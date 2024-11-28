@@ -60,7 +60,7 @@ Sistem manajemen subdomain terintegrasi dengan Cloudflare yang memungkinkan peng
 
 5. Edit konfigurasi database di `sequelize.js`:
    ```javascript
-   const sequelize = new Sequelize('wibudev', 'USERNAME', 'PASSWORD', {
+   const sequelize = new Sequelize('fighter', 'USERNAME', 'PASSWORD', {
      host: 'localhost',
      dialect: 'mysql'
    });
@@ -71,7 +71,7 @@ Sistem manajemen subdomain terintegrasi dengan Cloudflare yang memungkinkan peng
    npm start
    ```
 
-   Aplikasi akan berjalan di `http://localhost:3000`
+   Aplikasi akan berjalan di `http://localhost:80`
 
 ## Penggunaan
 
@@ -128,15 +128,13 @@ MIT License - lihat file [LICENSE](LICENSE) untuk detail lengkap.
 4. Push ke branch (`git push origin fitur/AmazingFeature`)
 5. Buat Pull Request
 
-## Kontak Develover
-
-Jonito - [@wibudev](https://facebook.com/jonitodesade)
-
-Project Link: [https://github.com/jonito2005/wibudev-subdomain](https://github.com/jonito2005/wibudev-subdomain)
-
 ## Penghargaan
 
 - [Express.js](https://expressjs.com)
 - [Sequelize](https://sequelize.org)
 - [Cloudflare](https://cloudflare.com)
 - [Tailwind CSS](https://tailwindcss.com)
+
+
+## Kontak Develover
+Jonito - [@wibudev](https://facebook.com/jonitodesade)
